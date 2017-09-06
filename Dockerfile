@@ -1,5 +1,5 @@
-FROM busybox
-MAINTAINER Chris <c@crccheck.com>
+FROM nginx:latest
+MAINTAINER fazal <jahidfazalp7@gmail.com>
 
 ADD index.html /www/index.html
 
